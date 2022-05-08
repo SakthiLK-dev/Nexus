@@ -1,0 +1,60 @@
+body {
+    background-color: #000000;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+.navbar-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    justify-content: right;
+}
+
+.navbar-buttons a{
+    
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 12px 20px;
+    text-align:center;
+    transition-duration: .20s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    font-size:medium;
+    text-decoration: none;
+    font-family: 'Catamaran', sans-serif;
+    
+}
+
+.navbar-buttons a:hover {
+    color:#000000;
+    background-color: #fff;
+}
+
+.logo-png {
+    width: 130px;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.background {
+    margin-top: 15px;
+    background-image: url("file:///C:/Users/Venkat/Desktop/Nexus/Images/Netflix-bg.png");
+}
+
